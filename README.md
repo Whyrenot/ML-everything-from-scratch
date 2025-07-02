@@ -1,41 +1,40 @@
-#Neural Network Modules Implementation
-This repository contains a Python implementation of various neural network modules similar to PyTorch's functionality. The code includes layers, activation functions, loss criterions, and optimizers necessary for building and training deep learning models.
+# Neural Network Modules Implementation
+## This repository contains a Python implementation of various neural network modules similar to PyTorch's functionality. The code includes layers, activation functions, loss criterions, and optimizers necessary for building and training deep learning models.
 
-##Features
-##Layers
-*Linear (Fully Connected): Implements a dense layer with optional bias
+## Layers
+* Linear (Fully Connected): Implements a dense layer with optional bias
 
-*Conv2d: 2D convolutional layer with padding
+* Conv2d: 2D convolutional layer with padding
 
-*MaxPool2d: 2D max pooling layer
+* MaxPool2d: 2D max pooling layer
 
-*Flatten: Reshapes input for transition between convolutional and dense layers
+* Flatten: Reshapes input for transition between convolutional and dense layers
 
-*BatchNormalization: Normalizes layer inputs
+* BatchNormalization: Normalizes layer inputs
 
-*Dropout: Implements dropout regularization
+* Dropout: Implements dropout regularization
 
-*Sequential: Container for stacking layers
+* Sequential: Container for stacking layers
 
-##Activation Functions
-*ReLU
+## Activation Functions
+* ReLU
 
-*LeakyReLU
+* LeakyReLU
 
-*ELU
+* ELU
 
-*SoftPlus
+* SoftPlus
 
-*SoftMax
+* SoftMax
 
-*LogSoftMax
+* LogSoftMax
 
-##Loss Functions
-*MSE Criterion
+## Loss Functions
+* MSE Criterion
 
-*Negative Log Likelihood Criterion (both stable and unstable versions)
+* Negative Log Likelihood Criterion (both stable and unstable versions)
 
-##Optimizers
-*SGD with Momentum
+## Optimizers
+* SGD with Momentum
 
-*Adam
+* Adam
